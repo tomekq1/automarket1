@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "automarket",
+  "version": "1.0.0",
+  "name": "AutoMarket",
+  "description": "Automatycznie kupuje przedmioty z rynku poniżej ustalonej ceny.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.automarket.AutoMarketClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
